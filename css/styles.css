@@ -80,10 +80,6 @@ a {
 	color:#5e6166;
 	}
 
-a:hover { 
-    color: #10b758;
-}
-
 hr  {
 	color:rgb(12, 0, 0);
 	margin:auto;
@@ -124,6 +120,9 @@ hr  {
 	padding-bottom: 20px;
 	width:100%;
 	color:rgb(0, 0, 0);
+}
+#gigs ul li:hover { 
+    color: #10b758;
 }
 
 footer  {
