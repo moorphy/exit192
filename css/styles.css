@@ -48,20 +48,19 @@ h1  {
 	}
 h2  {
 	font-family: 'bebasregular';
-	font-size:45px;
+	font-size:2.5em;
 	color:black;
 	text-align: center;
 	}
 
 h3 {
 	font-family: 'bebasregular';
-	font-size:35px;
+	font-size:2.0em;
 	color:rgb(0, 0, 0);
 	text-align: center;
-	padding-bottom: .5em;
 	
 }
-h3:hover {
+#gigs h4:hover {
 	color:#10b758;	
 }
 h4 {
@@ -69,6 +68,24 @@ h4 {
 	text-align: left;
 	font-family: 'bebasregular';
 	font-size:20px;
+	padding-bottom: 20px;
+	width:100%;
+	color:rgb(0, 0, 0);
+}
+h5 {
+		display:inline-block;
+		text-align: left;
+		font-family: 'bebasregular';
+		font-size:1em;
+		width:100%;
+		color:rgb(0, 0, 0);
+}
+p {
+	display:inline-block;
+	text-align: left;
+	font-family: 'poppinsregular';
+	font-size:20px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	width:100%;
 	color:rgb(0, 0, 0);
@@ -94,13 +111,24 @@ hr  {
 	display:inline-block;
 	text-align: left;
 	font-family: 'poppinsregular';
-	font-size:20px;
+	font-size:19px;
 	padding-bottom: 20px;
 	width:100%;
 	color:rgb(0, 0, 0);
 }
 #logo{
 	max-width:90%;
+}
+#classes {
+	display:block;
+	float:right;
+	width:45%;
+}
+#classes h1:hover{
+	color: #10b758;
+}
+#classes p:hover{
+	color: #10b758;
 }
 #gigs {
 	display:block;
@@ -123,6 +151,42 @@ hr  {
 }
 #gigs ul li:hover { 
     color: #10b758;
+}
+
+#classinfo {
+	width:80%;
+	margin:20px auto;
+}
+
+#classinfo h2 {
+	text-align: center;
+}
+#classinfo h3 {
+	text-align: left;
+}
+#classinfo h4 {
+	text-align: left;
+}
+#classinfo h5 {
+	font-family: 'poppinsregular';
+
+}
+#classinfo p {
+		display:inline-block;
+		text-align: left;
+		font-family: 'poppinsregular';
+		font-size:1em;
+		line-height:1.45em;
+		width:100%;
+		color:rgb(0, 0, 0);
+}
+
+#classinfo hr  {
+	width:80%;
+	margin:5px auto 5px auto;
+}
+#classinfo a:hover {
+	color: #10b758;
 }
 
 footer  {
