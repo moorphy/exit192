@@ -42,7 +42,7 @@ header  {
 
 h1  {
 	font-family: 'bebasregular';
-	font-size:75px;
+	font-size:2.75em;
 	color:rgb(0, 0, 0);	
 	text-align: left;
 	}
@@ -158,6 +158,11 @@ hr  {
 	margin:20px auto;
 }
 
+#classinfo h1 {
+	font-family: 'poppinsregular';
+	font-size: 1.85em;
+	text-align: left;
+}
 #classinfo h2 {
 	text-align: center;
 }
@@ -167,9 +172,12 @@ hr  {
 #classinfo h4 {
 	text-align: left;
 }
+#classinfo h4:hover {
+	color: #10b758;
+}
 #classinfo h5 {
 	font-family: 'poppinsregular';
-
+	line-height:1.45em;
 }
 #classinfo p {
 		display:inline-block;
