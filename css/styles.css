@@ -53,7 +53,7 @@ h2  {
 	text-align: center;
 	}
 
-h3 {
+#main h3 {
 	font-family: 'bebasregular';
 	font-size:2.0em;
 	color:rgb(0, 0, 0);
@@ -118,6 +118,14 @@ hr  {
 }
 #logo{
 	max-width:90%;
+
+}
+#classlogo {
+	display:block;
+	max-width:50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 #classes {
 	display:block;
@@ -152,10 +160,34 @@ hr  {
 #gigs ul li:hover { 
     color: #10b758;
 }
+nav {
+	width:100%;
+	font-family: 'poppinsregular';
+
+}
+nav ul {
+	text-align: center;
+	list-style-type: none;
+}
+nav ul li{
+	width:45%;
+	font-size:3em;
+	display:inline-block;
+	padding:5% auto;
+	color:rgb(0, 0, 0);
+	
+}
 
 #classinfo {
 	width:80%;
 	margin:20px auto;
+}
+#prom ul li {
+	font-family: 'poppinsregular';
+	font-size:18px;
+	padding-bottom: 10px;
+	width:100%;
+	color:rgb(0, 0, 0);
 }
 
 #classinfo h1 {
@@ -166,19 +198,20 @@ hr  {
 #classinfo h2 {
 	text-align: center;
 }
-#classinfo h3 {
-	text-align: left;
-}
+ #classinfo h3 {
+	font-family: 'poppinsregular';
+	text-align: center;
+} 
 #classinfo h4 {
 	text-align: left;
 }
 #classinfo h4:hover {
-	color: #10b758;
+	color: #3e3f3e;
 }
 #classinfo h5 {
 	font-family: 'poppinsregular';
 	line-height:1.45em;
-}
+} 
 #classinfo p {
 		display:inline-block;
 		text-align: left;
@@ -194,11 +227,93 @@ hr  {
 	margin:5px auto 5px auto;
 }
 #classinfo a:hover {
-	color: #10b758;
+	color: #3e3f3e;
+}
+#classcenter {
+	width:100%;
+	text-align: center;
+	font-size:1.25em;
+}
+#classcenter h5 {
+	text-align: center;
 }
 
-footer  {
+#coursepools ul li {
+	font-family: 'poppinsregular';
+	font-size:18px;
+	padding-bottom: 10px;
+	width:100%;
+	color:rgb(0, 0, 0);
+}
+#coursepools h2 {
+	text-align: left;
+}
+#coursepools h3{
+	font-family: 'poppinsregular';
+	font-size:1.25em;
+	color:rgb(0, 0, 0);
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#coursepoolleft{
+	width:45%;
+	display:block;
+	float:left;
+	padding-bottom: 4%;
+}
+
+#coursepoolright{
+	width: 45%;
+	display:block;
+	float:right;
+}
+#adultcourseinfo {
+	margin: 0 auto;
 	width:80%;
+}
+#adultcourses {
+	text-align: left;
+}
+
+#adultcourses h1:hover {
+	color: #6d6d6d;
+
+}
+
+#adultcourses h2 {
+
+}
+#adultcourses h3 {
+	text-align: left;
+	padding:.5%;
+}
+
+#adultcourses h3:hover {
+	color: #6d6d6d;
+}
+
+#youth {
+	text-align: left;
+}
+
+#youth h1:hover {
+	color: #6d6d6d;
+}
+
+#youth h3 {
+	text-align: left;
+	padding:.5%;
+}
+
+#youth h3:hover {
+	color: #6d6d6d;
+}
+
+
+
+footer  {
+	width:100%;
 	margin:20px auto;
 	font-family: 'bebasregular';
 	font-size:20px;
@@ -214,6 +329,7 @@ footer ul  {
 
 footer ul li  {
 	display:inline-block;
+	text-align:center;
 	width:100%;
 	color:rgb(0, 0, 0);
 	padding: 5px;
