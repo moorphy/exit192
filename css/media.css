@@ -23,18 +23,39 @@
 
 }
 @media screen and (max-width: 850px) {
-h1  {
-	font-size:40px;
-	}
-h2  {
+#coursepools h1  {
+	font-size:30px;
+}
+#coursepools h2  {
 	font-size:25px;
 	}
-h3 {
+#coursepools h3 {
 	font-size:20px;
 }
-	
+
+#adultcourses h1 {
+	font-size:1.25em;;
+}
+#adultcourses h3 {
+	font-size:1em;
+}
+#adultcourses h5 {
+	font-size:.8em;
+}
 footer ul li  {
 	font-size:12px;
+}
+nav ul li {
+	font-size:1.85em;
+}
+#coursepoolleft {
+	width:100%;
+}
+#coursepoolright {
+	width:100%;
+}
+#adultcourseinfo {
+	width:100%;
 }
 }
 

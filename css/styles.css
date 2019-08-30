@@ -174,8 +174,10 @@ nav ul li{
 	font-size:3em;
 	display:inline-block;
 	padding:5% auto;
-	color:rgb(0, 0, 0);
-	
+	color:rgb(0, 0, 0);	
+}
+nav ul li:hover {
+	color: #10b758;
 }
 
 #classinfo {
@@ -206,7 +208,7 @@ nav ul li{
 	text-align: left;
 }
 #classinfo h4:hover {
-	color: #3e3f3e;
+	color:#10b758;	
 }
 #classinfo h5 {
 	font-family: 'poppinsregular';
@@ -227,7 +229,7 @@ nav ul li{
 	margin:5px auto 5px auto;
 }
 #classinfo a:hover {
-	color: #3e3f3e;
+	color:#10b758;	
 }
 #classcenter {
 	width:100%;
@@ -276,21 +278,13 @@ nav ul li{
 	text-align: left;
 }
 
-#adultcourses h1:hover {
-	color: #6d6d6d;
-
-}
-
-#adultcourses h2 {
-
-}
 #adultcourses h3 {
 	text-align: left;
 	padding:.5%;
 }
 
 #adultcourses h3:hover {
-	color: #6d6d6d;
+	color:#10b758;	
 }
 
 #youth {
@@ -305,12 +299,6 @@ nav ul li{
 	text-align: left;
 	padding:.5%;
 }
-
-#youth h3:hover {
-	color: #6d6d6d;
-}
-
-
 
 footer  {
 	width:100%;
